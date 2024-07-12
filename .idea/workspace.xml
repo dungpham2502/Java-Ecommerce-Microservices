@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Dockerfile" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ProductControllerTest" />
+      <run-configuration type="JUnit" name="CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer" />
+    </enabled-run-configurations>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hom9IVGKrz1GtMlaDYDg3erkiY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.DiscoveryApplication.executor": "Debug",
+    "Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.mongo-express: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.mongodb: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.order-service: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.CustomerControllerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor": "Coverage",
+    "JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor": "Run",
+    "JUnit.CustomerRepositoryTest.executor": "Run",
+    "JUnit.CustomerServiceTest.CustomerService_CreateCustomer_ReturnsCustomerId.executor": "Run",
+    "JUnit.CustomerServiceTest.CustomerService_GetCustomerById_ReturnsCustomerResponse.executor": "Run",
+    "JUnit.CustomerServiceTest.executor": "Run",
+    "JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.ProductRepository_Saved_ReturnSavedProduct.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
+    "JUnit.ProductServiceTest (1).executor": "Run",
+    "JUnit.ProductServiceTest.ProductService_FindAll_ReturnsAllProducts.executor": "Run",
+    "JUnit.ProductServiceTest.ProductService_FindById_ThrowsExceptionWhenNotFound.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CartApplication (1).executor": "Run",
+    "Spring Boot.CartApplication.executor": "Debug",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CustomerApplication.executor": "Run",
+    "Spring Boot.DiscoveryApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.NotificationApplication.executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.PaymentApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
+    "StatusDashboardGroupingRule": "true",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dungpham/Code/e-commerce-app/services/order/src/main/java/com/example/ecommerce/orderline",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ecommerce.cart.dto" />
+      <recent name="com.example.ecommerce.item.dto" />
+      <recent name="com.example.ecommerce.product.dto" />
+      <recent name="com.example.ecommerce.item" />
+      <recent name="com.example.ecommerce.customer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/order/src/main/java/com/example/ecommerce/orderline" />
+      <recent name="$PROJECT_DIR$/services/product/src/main/java/com/example/ecommerce/product" />
+      <recent name="$PROJECT_DIR$/services/payment/src/main/java/com/example/ecommerce/payment" />
+      <recent name="$PROJECT_DIR$/services/order/src/main/java/com/example/ecommerce" />
+      <recent name="$PROJECT_DIR$/services/product/src/main/java/com/example/ecommerce" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.ecommerce.customer.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ecommerce.payment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.product.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.product.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.controller.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.ProductController_CreateProduct_ReturnsProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.product.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.Product.controller.ProductControllerTest" />
+      <option name="METHOD_NAME" value="ProductController_CreateProduct_ReturnsProductId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.product.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.repository.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.product.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.Product.service.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.product.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.product.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.service.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.CartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId" />
+        <item itemvalue="JUnit.ProductServiceTest (1)" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="" />
+      <created>1718268651930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718268651930</updated>
+      <workItem from="1718268653095" duration="347000" />
+      <workItem from="1718269513591" duration="465000" />
+      <workItem from="1718271340178" duration="634000" />
+      <workItem from="1718273337622" duration="26331000" />
+      <workItem from="1718593951460" duration="41312000" />
+      <workItem from="1719195028632" duration="9089000" />
+      <workItem from="1719212076550" duration="26210000" />
+      <workItem from="1719368916144" duration="11238000" />
+      <workItem from="1719383736116" duration="13000" />
+      <workItem from="1719384248645" duration="20164000" />
+      <workItem from="1719419135925" duration="24262000" />
+      <workItem from="1719886580652" duration="3518000" />
+      <workItem from="1719890900412" duration="43045000" />
+      <workItem from="1719989633450" duration="15108000" />
+      <workItem from="1720059185012" duration="7308000" />
+      <workItem from="1720075486855" duration="7477000" />
+      <workItem from="1720083066094" duration="7686000" />
+      <workItem from="1720090853831" duration="1748000" />
+      <workItem from="1720143970097" duration="28680000" />
+      <workItem from="1720404994935" duration="13021000" />
+      <workItem from="1720418392209" duration="7420000" />
+      <workItem from="1720426899279" duration="6533000" />
+      <workItem from="1720433451486" duration="383000" />
+      <workItem from="1720434501842" duration="17477000" />
+      <workItem from="1720512372157" duration="16049000" />
+      <workItem from="1720541677354" duration="22895000" />
+      <workItem from="1720600238502" duration="6075000" />
+      <workItem from="1720664478334" duration="37909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/order/entity/OrderConfirmation.java</url>
+          <line>32</line>
+          <properties field="customerEmail" class="com.example.ecommerce.order.entity.OrderConfirmation" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/order/entity/OrderConfirmation.java</url>
+          <line>31</line>
+          <properties field="customerLastname" class="com.example.ecommerce.order.entity.OrderConfirmation" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/kafka/NotificationsConsumer.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/inventory/InventoryServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/dto/CartRequest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/mapper/CartMapper.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/product-service/src/main/java/com/example/ecommerce/product/controller/ProductController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/product/client/ProductClient.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/payment-service/src/main/java/com/example/ecommerce/paypal/service/PaypalService.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/payment-service/src/main/java/com/example/ecommerce/paypal/service/PaypalService.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/payment-service/src/main/java/com/example/ecommerce/paypal/service/PaypalService.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/customer-service/src/main/java/com/example/ecommerce/customer/service/CustomerServiceImpl.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/order-service/src/main/java/com/example/ecommerce/order/service/OrderServiceImpl.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/e_commerce_app$CustomerRepositoryTest_CustomerRepository_Saved_ReturnSavedCustomer.ic" NAME="CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer Coverage Results" MODIFIED="1720602271608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.ecommerce.customer.*</FILTER>
+    </SUITE>
+  </component>
+</project>

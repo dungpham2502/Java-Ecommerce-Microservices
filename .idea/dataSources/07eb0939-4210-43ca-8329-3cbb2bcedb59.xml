@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.52">
+    <root id="1">
+      <ServerVersion>6.0.5</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin">
+      <LastIntrospectionLocalTimestamp>2024-06-25.09:54:27</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="chatapp"/>
+    <schema id="4" parent="1" name="chatbot"/>
+    <schema id="5" parent="1" name="config"/>
+    <schema id="6" parent="1" name="farmStand"/>
+    <schema id="7" parent="1" name="firstDb"/>
+    <schema id="8" parent="1" name="firstapp"/>
+    <schema id="9" parent="1" name="local"/>
+    <schema id="10" parent="1" name="loginDemo"/>
+    <schema id="11" parent="1" name="mongoRelationship"/>
+    <schema id="12" parent="1" name="my-gym"/>
+    <schema id="13" parent="1" name="new-my-gym"/>
+    <schema id="14" parent="1" name="newApp"/>
+    <schema id="15" parent="1" name="recipe-app"/>
+    <schema id="16" parent="1" name="task-bulls"/>
+    <schema id="17" parent="1" name="task-management-app"/>
+    <schema id="18" parent="1" name="task_bulls"/>
+    <schema id="19" parent="1" name="test">
+      <Current>1</Current>
+    </schema>
+    <schema id="20" parent="1" name="yelp-camp"/>
+  </database-model>
+</dataSource>

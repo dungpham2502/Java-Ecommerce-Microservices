@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="" />
+    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/src/test/java/com/example/ecommerce/product/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/test/java/com/example/ecommerce/product/repository/ProductRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +25,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dungpham2502&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dungpham2502/Java-Ecommerce-Microservices&quot;,
+    &quot;accountId&quot;: &quot;412864fd-7d57-4405-a327-2779e912831b&quot;
+  }
+}</component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
       <run-configuration type="JUnit" name="ProductControllerTest" />
-      <run-configuration type="JUnit" name="CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer" />
     </enabled-run-configurations>
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -34,77 +53,83 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2hom9IVGKrz1GtMlaDYDg3erkiY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConfigServerApplication.executor": "Run",
-    "Application.DiscoveryApplication.executor": "Debug",
-    "Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mongo-express: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mongodb: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.order-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "JUnit.CustomerControllerTest.executor": "Run",
-    "JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor": "Coverage",
-    "JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor": "Run",
-    "JUnit.CustomerRepositoryTest.executor": "Run",
-    "JUnit.CustomerServiceTest.CustomerService_CreateCustomer_ReturnsCustomerId.executor": "Run",
-    "JUnit.CustomerServiceTest.CustomerService_GetCustomerById_ReturnsCustomerResponse.executor": "Run",
-    "JUnit.CustomerServiceTest.executor": "Run",
-    "JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId.executor": "Run",
-    "JUnit.ProductControllerTest.executor": "Run",
-    "JUnit.ProductRepositoryTest.ProductRepository_Saved_ReturnSavedProduct.executor": "Run",
-    "JUnit.ProductRepositoryTest.executor": "Run",
-    "JUnit.ProductServiceTest (1).executor": "Run",
-    "JUnit.ProductServiceTest.ProductService_FindAll_ReturnsAllProducts.executor": "Run",
-    "JUnit.ProductServiceTest.ProductService_FindById_ThrowsExceptionWhenNotFound.executor": "Run",
-    "JUnit.ProductServiceTest.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CartApplication (1).executor": "Run",
-    "Spring Boot.CartApplication.executor": "Debug",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.CustomerApplication.executor": "Run",
-    "Spring Boot.DiscoveryApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.NotificationApplication.executor": "Run",
-    "Spring Boot.OrderApplication.executor": "Run",
-    "Spring Boot.PaymentApplication.executor": "Run",
-    "Spring Boot.ProductApplication.executor": "Run",
-    "StatusDashboardGroupingRule": "true",
-    "extract.method.default.visibility": "private",
-    "jdk.selected.JAVA_MODULE": "temurin-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dungpham/Code/e-commerce-app/services/order/src/main/java/com/example/ecommerce/orderline",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiscoveryApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mongo-express: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.order-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServiceTest.CustomerService_CreateCustomer_ReturnsCustomerId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServiceTest.CustomerService_GetCustomerById_ReturnsCustomerResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.ProductRepository_Saved_ReturnSavedProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.ProductService_FindAll_ReturnsAllProducts.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.ProductService_FindById_ThrowsExceptionWhenNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CartApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CartApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CustomerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Run&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dungpham/Code/e-commerce-app/services/order/src/main/java/com/example/ecommerce/orderline&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;,
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "PostgreSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -143,7 +168,38 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
+  <component name="RunManager" selected="JUnit.CartRepositoryTest">
+    <configuration name="CartRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.cart" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.cart.CartRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartRepositoryTest.CartRepository_Save_ReturnSavedCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.cart" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.cart.CartRepositoryTest" />
+      <option name="METHOD_NAME" value="CartRepository_Save_ReturnSavedCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service" />
       <extension name="coverage">
@@ -185,21 +241,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.repository" />
       <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.repository.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.Product.service.ProductServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartRepositoryTest" />
+        <item itemvalue="JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
         <item itemvalue="JUnit.ProductControllerTest" />
         <item itemvalue="JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId" />
-        <item itemvalue="JUnit.ProductServiceTest (1)" />
-        <item itemvalue="JUnit.ProductServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,11 +370,26 @@
       <workItem from="1720541677354" duration="22895000" />
       <workItem from="1720600238502" duration="6075000" />
       <workItem from="1720664478334" duration="37909000" />
+      <workItem from="1720778364258" duration="9178000" />
+      <workItem from="1721180395971" duration="11409000" />
+      <workItem from="1721196542642" duration="96000" />
+      <workItem from="1721196695569" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

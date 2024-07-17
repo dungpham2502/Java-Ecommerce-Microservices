@@ -24,7 +24,7 @@ public class ProductRepositoryTest {
     private ProductRepository productRepository;
 
     @Autowired
-    private CategoryRepository categoryRepository; // Add CategoryRepository
+    private CategoryRepository categoryRepository;
 
     private Product product1;
     private Product product2;

@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/cart.IHsuAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/cart.IHsuAA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/customer.3n8hJA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/customer.3n8hJA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/notification.64h6Iw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/notification.64h6Iw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/order.TodRBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/order.TodRBg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/payment.BjIc0Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/105b783e-b762-45cc-b472-97d4c3bc703f/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product-service/src/test/java/com/example/ecommerce/product/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/src/test/java/com/example/ecommerce/product/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/email/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/email/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/kafka/NotificationsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/kafka/NotificationsConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/product-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +85,12 @@
     &quot;Application.DiscoveryApplication.executor&quot;: &quot;Debug&quot;,
     &quot;Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.keycloak: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.mongo-express: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.order-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartRepositoryTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CartRepositoryTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CustomerControllerTest.executor&quot;: &quot;Run&quot;,
@@ -168,7 +189,22 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CartRepositoryTest">
+  <component name="RunManager" selected="Docker.docker-compose.yml.keycloak: Compose Deployment">
+    <configuration name="CartRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.repository.CartRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart-service" />
       <extension name="coverage">
@@ -200,37 +236,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.controller.ProductControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductControllerTest.ProductController_CreateProduct_ReturnsProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.Product.controller.ProductControllerTest" />
-      <option name="METHOD_NAME" value="ProductController_CreateProduct_ReturnsProductId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service" />
       <extension name="coverage">
@@ -241,21 +246,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.repository" />
       <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.repository.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.product.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.service.ProductServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,6 +272,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
@@ -303,9 +300,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shipping-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.ShippingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shipping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerce.ShippingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,13 +334,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.keycloak: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="keycloak" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+        <item itemvalue="JUnit.CartRepositoryTest (1)" />
         <item itemvalue="JUnit.CartRepositoryTest" />
         <item itemvalue="JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
-        <item itemvalue="JUnit.ProductControllerTest" />
-        <item itemvalue="JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId" />
       </list>
     </recent_temporary>
   </component>
@@ -374,6 +405,16 @@
       <workItem from="1721180395971" duration="11409000" />
       <workItem from="1721196542642" duration="96000" />
       <workItem from="1721196695569" duration="80000" />
+      <workItem from="1721198901607" duration="13029000" />
+      <workItem from="1721268975004" duration="235000" />
+      <workItem from="1721269213425" duration="153000" />
+      <workItem from="1721269369684" duration="3704000" />
+      <workItem from="1721274718890" duration="8696000" />
+      <workItem from="1721283595044" duration="3868000" />
+      <workItem from="1721292985421" duration="652000" />
+      <workItem from="1721299860333" duration="641000" />
+      <workItem from="1721618045458" duration="969000" />
+      <workItem from="1721619356906" duration="2728000" />
     </task>
     <servers />
   </component>
@@ -408,7 +449,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/kafka/NotificationsConsumer.java</url>
-          <line>53</line>
+          <line>52</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -465,6 +506,11 @@
           <url>file://$PROJECT_DIR$/services/order-service/src/main/java/com/example/ecommerce/order/service/OrderServiceImpl.java</url>
           <line>172</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/email/service/EmailService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />

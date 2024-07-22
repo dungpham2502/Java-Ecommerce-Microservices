@@ -1,6 +1,5 @@
 package com.example.ecommerce.kafka;
 
-import com.example.ecommerce.email.service.EmailService;
 import com.example.ecommerce.order.entity.OrderConfirmation;
 import com.example.ecommerce.payment.entity.PaymentConfirmation;
 import com.example.ecommerce.notification.entity.Notification;

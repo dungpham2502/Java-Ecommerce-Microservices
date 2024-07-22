@@ -1,32 +1,28 @@
 name: Docker CI/CD Pipeline
 
-# Define the event that triggers the workflow
 on:
   push:
     branches:
       - develop
 
-# Define the jobs to be executed on the workflow
 jobs:
   build_and_push:
-    runs-on: ubuntu-latest # type of machine to run on
+    runs-on: ubuntu-latest  # Run the job on the latest Ubuntu environment
     strategy:
-      matrix: # matrix to run the hob for multiple services
+      matrix:  # Define a matrix to run the job for each service
         service: [customer-service, product-service, cart-service, order-service, payment-service, notification-service]
 
-    steps: # steps to be executed
-      # check out the code from repo
-      - name: Checkout code
+    steps:
+      - name: Checkout code  # Step to check out the repository code
         uses: actions/checkout@v2
 
-      # set up jdk version
-      - name: Set up JDK 17
+      - name: Set up JDK 17  # Step to set up JDK 17
         uses: actions/setup-java@v2
         with:
+          distribution: 'temurin'
           java-version: '17'
 
-      # cache maven dependencies
-      - name: Cache Maven packages
+      - name: Cache Maven packages  # Step to cache Maven dependencies
         uses: actions/cache@v2
         with:
           path: ~/.m2
@@ -34,29 +30,24 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      # build projects
-      - name: Build with Maven
+      - name: Build with Maven  # Step to build the project using Maven
         run: mvn clean install -DskipTests
         working-directory: ./services/${{ matrix.service }}
 
-      # run tests
-      - name: Test with Maven
+      - name: Test with Maven  # Step to run tests using Maven
         run: mvn test
         working-directory: ./services/${{ matrix.service }}
 
-      # login to docker hub with credentials
-      - name: Login to Docker Hub
+      - name: Login to Docker Hub  # Step to log in to Docker Hub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # build docker image
-      - name: Build Docker image
+      - name: Build Docker image  # Step to build the Docker image
         run: docker build -t dungpham2502/${{ matrix.service }}:latest ./services/${{ matrix.service }}
 
-      # push images to docker hub
-      - name: Push image to Docker Hub
+      - name: Push Docker image to Docker Hub  # Step to push the Docker image to Docker Hub
         uses: docker/build-push-action@v2
         with:
           context: ./services/${{ matrix.service }}
@@ -64,20 +55,20 @@ jobs:
           tags: dungpham2502/${{ matrix.service }}:latest
 
   deploy:
-    needs: build_and_push
-    runs-on: ubuntu-latest
+    needs: build_and_push  # Run this job only if build_and_push job succeeds
+    runs-on: ubuntu-latest  # Run the job on the latest Ubuntu environment
 
     steps:
-      - name: Checkout code
+      - name: Checkout code  # Step to check out the repository code
         uses: actions/checkout@v2
 
-      - name: Login to Docker Hub
+      - name: Login to Docker Hub  # Step to log in to Docker Hub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Deploy to server
+      - name: Deploy to server  # Step to deploy the services to the server via SSH
         uses: appleboy/ssh-action@v0.1.3
         with:
           host: ${{ secrets.SERVER_HOST }}

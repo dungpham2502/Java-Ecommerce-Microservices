@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest  # Run the job on the latest Ubuntu environment
     strategy:
       matrix:  # Define a matrix to run the job for each service
-        service: [customer-service, product-service, cart-service, order-service, payment-service, notification-service]
+        service: [eureka-config-server, eureka-discovery-server, api-gateway-server, customer-service, product-service, cart-service, order-service, payment-service, notification-service]
 
     steps:
       - name: Checkout code  # Step to check out the repository code
@@ -76,7 +76,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
-            services=(customer-service product-service cart-service order-service payment-service notification-service)
+            services=(eureka-config-server eureka-discovery-server api-gateway-server customer-service product-service cart-service order-service payment-service notification-service)
             for service in "${services[@]}"; do
               docker pull dungpham2502/$service:latest
 
@@ -84,6 +84,15 @@ jobs:
               docker rm $service || true
 
               case $service in
+                eureka-config-server)
+                  port=8888
+                  ;;
+                eureka-discovery-server)
+                  port=8761
+                  ;;
+                api-gateway-server)
+                  port=8222
+                  ;;
                 customer-service)
                   port=8090
                   ;;

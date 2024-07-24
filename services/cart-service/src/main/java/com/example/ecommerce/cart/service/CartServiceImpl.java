@@ -5,6 +5,7 @@ import com.example.ecommerce.cart.dto.CartResponse;
 import com.example.ecommerce.cart.mapper.CartMapper;
 import com.example.ecommerce.cart.repository.CartRepository;
 import com.example.ecommerce.customer.client.CustomerClient;
+import com.example.ecommerce.customer.dto.CustomerResponse;
 import com.example.ecommerce.exception.BusinessException;
 import com.example.ecommerce.item.dto.CartItemRequest;
 import com.example.ecommerce.item.entity.CartItem;
@@ -25,7 +26,7 @@ public class CartServiceImpl implements CartService {
     private final CartMapper cartMapper;
 
     @Autowired
-    public CartServiceImpl(CustomerClient customerClient, ProductClient productClient, CartMapper cartMapper, CartRepository cartRepository) {
+    public CartServiceImpl(CustomerClient customerClient, ProductClient productClient, CartMapper cartMapper, CartRepository cartRepository, CustomerClient customerClient) {
         this.customerClient = customerClient;
         this.productClient = productClient;
         this.cartMapper = cartMapper;
@@ -129,5 +130,11 @@ public class CartServiceImpl implements CartService {
                 .orElseThrow(() -> new BusinessException("No cart found for customer ID:: " + customerId));
         cart.getItems().clear();
         cartRepository.save(cart);
+    }
+
+    @Override
+    public Optional<CustomerResponse> getCustomer(Integer customerId){
+        return Optional.ofNullable(customerClient.findCustomerById(customerId)
+                .orElseThrow(() -> new BusinessException("Cannot add to cart:: No customer exists")));
     }
 }

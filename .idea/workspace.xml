@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update docker config">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update dockerfiles">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
         <option value="Dockerfile" />
         <option value="Record" />
         <option value="Class" />
+        <option value="workflow" />
       </list>
     </option>
   </component>
@@ -149,6 +150,7 @@
       <recent name="$PROJECT_DIR$/services/product/src/main/java/com/example/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/product-service" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -394,6 +396,8 @@
       <workItem from="1721299860333" duration="641000" />
       <workItem from="1721618045458" duration="969000" />
       <workItem from="1721619356906" duration="11287000" />
+      <workItem from="1721700403173" duration="7449000" />
+      <workItem from="1721789383490" duration="5681000" />
     </task>
     <task id="LOCAL-00001" summary="update docker config">
       <option name="closed" value="true" />

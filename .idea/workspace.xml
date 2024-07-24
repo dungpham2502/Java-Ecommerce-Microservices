@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update dockerfiles">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer-service/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer-service/.github/workflows/ci-cd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +397,7 @@
       <workItem from="1721618045458" duration="969000" />
       <workItem from="1721619356906" duration="11287000" />
       <workItem from="1721700403173" duration="7449000" />
-      <workItem from="1721789383490" duration="5681000" />
+      <workItem from="1721789383490" duration="8026000" />
     </task>
     <task id="LOCAL-00001" summary="update docker config">
       <option name="closed" value="true" />

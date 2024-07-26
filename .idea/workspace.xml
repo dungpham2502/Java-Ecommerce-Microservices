@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update dockerfiles">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/api-gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/api-gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cart-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cart-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/customer-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/customer-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/eureka-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/eureka-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/eureka-discovery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/eureka-discovery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/notification-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/notification-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/product-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/product-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order-service/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/order-service/.github/workflows/ci-cd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +29,8 @@
         <option value="Enum" />
         <option value="Dockerfile" />
         <option value="Record" />
-        <option value="Class" />
         <option value="workflow" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,11 +49,6 @@
     &quot;accountId&quot;: &quot;412864fd-7d57-4405-a327-2779e912831b&quot;
   }
 }</component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="ProductControllerTest" />
-    </enabled-run-configurations>
-  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -76,6 +78,8 @@
     &quot;JUnit.CartRepositoryTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CartRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartServiceTest.CartService_ClearCart_Success.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CartServiceTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CustomerControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor&quot;: &quot;Run&quot;,
@@ -121,7 +125,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -173,7 +177,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.keycloak: Compose Deployment">
+  <component name="RunManager" selected="JUnit.CartServiceTest">
     <configuration name="CartRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart-service" />
       <extension name="coverage">
@@ -220,16 +224,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
+    <configuration name="CartServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.repository.*" />
+          <option name="PATTERN" value="com.example.ecommerce.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.repository.ProductRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.service.CartServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartServiceTest" />
         <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
         <item itemvalue="JUnit.CartRepositoryTest (1)" />
         <item itemvalue="JUnit.CartRepositoryTest" />
         <item itemvalue="JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +404,11 @@
       <workItem from="1721618045458" duration="969000" />
       <workItem from="1721619356906" duration="11287000" />
       <workItem from="1721700403173" duration="7449000" />
-      <workItem from="1721789383490" duration="15771000" />
+      <workItem from="1721789383490" duration="25596000" />
+      <workItem from="1721874108134" duration="14401000" />
+      <workItem from="1721962750764" duration="121000" />
+      <workItem from="1721962976659" duration="800000" />
+      <workItem from="1721964013707" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="update docker config">
       <option name="closed" value="true" />
@@ -510,6 +518,11 @@
           <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/email/service/EmailService.java</url>
           <line>38</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />

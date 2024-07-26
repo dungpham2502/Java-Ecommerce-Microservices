@@ -26,7 +26,7 @@ public class CartServiceImpl implements CartService {
     private final CartMapper cartMapper;
 
     @Autowired
-    public CartServiceImpl(CustomerClient customerClient, ProductClient productClient, CartMapper cartMapper, CartRepository cartRepository, CustomerClient customerClient) {
+    public CartServiceImpl(CustomerClient customerClient, ProductClient productClient, CartMapper cartMapper, CartRepository cartRepository) {
         this.customerClient = customerClient;
         this.productClient = productClient;
         this.cartMapper = cartMapper;
@@ -42,7 +42,7 @@ public class CartServiceImpl implements CartService {
 
         var existingCart = cartRepository.findByCustomerId(request.customerId());
         if(existingCart.isPresent()) {
-            throw new BusinessException("Cannot add to cart:: Customer already exists");
+            throw new BusinessException("Cannot create cart:: Cart already exists");
         }
         // check item quantity
         var productIds = request.items().stream()
@@ -135,6 +135,11 @@ public class CartServiceImpl implements CartService {
     @Override
     public Optional<CustomerResponse> getCustomer(Integer customerId){
         return Optional.ofNullable(customerClient.findCustomerById(customerId)
-                .orElseThrow(() -> new BusinessException("Cannot add to cart:: No customer exists")));
+                .orElseThrow(() -> new BusinessException("Cannot find customer:: No customer exists")));
+    }
+
+    @Override
+    public List<ProductResponse> checkProductAvailability(List<Integer> productIds, List<Double> quantities) {
+        return productClient.checkAvailability(productIds, quantities);
     }
 }

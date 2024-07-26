@@ -4,7 +4,9 @@ import com.example.ecommerce.cart.dto.CartRequest;
 import com.example.ecommerce.cart.dto.CartResponse;
 import com.example.ecommerce.customer.dto.CustomerResponse;
 import com.example.ecommerce.item.dto.CartItemRequest;
+import com.example.ecommerce.product.dto.ProductResponse;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface CartService {
@@ -14,4 +16,5 @@ public interface CartService {
     void removeFromCart(Integer customerId, Integer productId);
     void clearCart(Integer customerId);
     Optional<CustomerResponse> getCustomer(Integer customerId);
+    List<ProductResponse> checkProductAvailability(List<Integer> productIds, List<Double> quantities);
 }

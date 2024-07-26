@@ -1,4 +1,4 @@
-name: Eureka Discovery Server CI/CD Pipeline
+name: Eureka Discovery Server CI Pipeline
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - develop
 
 jobs:
-  build_and_push:
+  build_and_test:
     runs-on: ubuntu-latest
 
     steps:
@@ -43,43 +43,9 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build Docker Image
-        run: docker build -t dungpham2502/eureka-discovery-server:latest ./services/eureka-discovery-server
-
-      - name: Push Docker image to Docker Hub
+      - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
         with:
           context: ./services/eureka-discovery-server
           push: true
           tags: dungpham2502/eureka-discovery-server:latest
-
-  deploy:
-    needs: build_and_push
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      - name: Deploy to server
-        uses: appleboy/ssh-action@v0.1.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          timeout: 60m
-          command_timeout: 30m
-          script: |
-            docker pull dungpham2502/eureka-discovery-server:latest
-
-            docker stop eureka-discovery-server || true
-            docker rm eureka-discovery-server || true
-
-            docker run -d -p 8761:8761 --name eureka-discovery-server dungpham2502/eureka-discovery-server:latest

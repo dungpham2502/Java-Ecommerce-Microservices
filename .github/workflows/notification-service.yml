@@ -1,4 +1,4 @@
-name: Notification Service CI/CD Pipeline
+name: Notification Service CI Pipeline
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - develop
 
 jobs:
-  build_and_push:
+  build_and_test:
     runs-on: ubuntu-latest
 
     steps:
@@ -41,45 +41,11 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN}}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build Docker Image
-        run: docker build -t dungpham2502/notification-service:latest ./services/notification-service
-
-      - name: Push Docker image to Docker Hub
+      - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
         with:
           context: ./services/notification-service
           push: true
           tags: dungpham2502/notification-service:latest
-
-  deploy:
-    needs: build_and_push
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      - name: Deploy to server
-        uses: appleboy/ssh-action@v0.1.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          timeout: 60m
-          command_timeout: 30m
-          script: |
-            docker pull dungpham2502/notification-service:latest
-
-            docker stop notification-service || true
-            docker rm notification-service || true
-
-            docker run -d -p 8040:8040 --name notification-service dungpham2502/notification-service:latest

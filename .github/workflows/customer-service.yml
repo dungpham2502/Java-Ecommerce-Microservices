@@ -6,6 +6,8 @@ on:
       - 'services/customer-service/**'
     branches:
       - develop
+  workflow_dispatch:
+
 
 jobs:
   build_and_test:

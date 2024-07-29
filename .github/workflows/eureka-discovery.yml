@@ -6,6 +6,8 @@ on:
       - 'services/eureka-discovery-server/**'
     branches:
       - develop
+  workflow_dispatch:
+
 
 jobs:
   build_and_test:

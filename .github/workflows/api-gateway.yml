@@ -6,6 +6,8 @@ on:
       - 'services/api-gateway-server/**'
     branches:
       - develop
+  workflow_dispatch:
+
 
 jobs:
   build_and_test:

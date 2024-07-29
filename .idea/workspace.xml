@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update docker config" />
+    <list default="true" id="cdea7b52-a2ca-49ae-a00e-c26b49c21de4" name="Changes" comment="update dockerfiles">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/api-gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/api-gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cart-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cart-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/customer-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/customer-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/eureka-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/eureka-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cart-service/src/test/java/com/example/ecommerce/repository/CartRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/cart-service/src/test/java/com/example/ecommerce/repository/CartRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,7 @@
         <option value="Enum" />
         <option value="Dockerfile" />
         <option value="Record" />
+        <option value="workflow" />
         <option value="Class" />
       </list>
     </option>
@@ -35,11 +43,6 @@
     &quot;accountId&quot;: &quot;412864fd-7d57-4405-a327-2779e912831b&quot;
   }
 }</component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="ProductControllerTest" />
-    </enabled-run-configurations>
-  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -55,78 +58,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiscoveryApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.keycloak: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.mongo-express: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.order-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartRepositoryTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerServiceTest.CustomerService_CreateCustomer_ReturnsCustomerId.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerServiceTest.CustomerService_GetCustomerById_ReturnsCustomerResponse.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductRepositoryTest.ProductRepository_Saved_ReturnSavedProduct.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceTest.ProductService_FindAll_ReturnsAllProducts.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceTest.ProductService_FindById_ThrowsExceptionWhenNotFound.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CartApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CartApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CustomerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.DiscoveryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.NotificationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PaymentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Run&quot;,
-    &quot;StatusDashboardGroupingRule&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dungpham/Code/e-commerce-app/services/order/src/main/java/com/example/ecommerce/orderline&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.DiscoveryApplication.executor": "Debug",
+    "Docker.configurations/notification-service.yml.mongodb: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.eureka-config-server: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.keycloak: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.mongo-express: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.mongodb: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.order-service: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.CartApplicationTests.executor": "Run",
+    "JUnit.CartControllerTest.executor": "Run",
+    "JUnit.CartRepositoryTest (1).executor": "Run",
+    "JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart.executor": "Run",
+    "JUnit.CartRepositoryTest.executor": "Run",
+    "JUnit.CartServiceTest.CartService_ClearCart_Success.executor": "Debug",
+    "JUnit.CartServiceTest.executor": "Run",
+    "JUnit.CustomerControllerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.CustomerRepository_Saved_ReturnSavedCustomer.executor": "Coverage",
+    "JUnit.CustomerRepositoryTest.CustomerRepository_findById_ReturnCustomer.executor": "Run",
+    "JUnit.CustomerRepositoryTest.executor": "Run",
+    "JUnit.CustomerServiceTest.CustomerService_CreateCustomer_ReturnsCustomerId.executor": "Run",
+    "JUnit.CustomerServiceTest.CustomerService_GetCustomerById_ReturnsCustomerResponse.executor": "Run",
+    "JUnit.CustomerServiceTest.executor": "Run",
+    "JUnit.ProductControllerTest.ProductController_CreateProduct_ReturnsProductId.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.ProductRepository_Saved_ReturnSavedProduct.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
+    "JUnit.ProductServiceTest (1).executor": "Run",
+    "JUnit.ProductServiceTest.ProductService_FindAll_ReturnsAllProducts.executor": "Run",
+    "JUnit.ProductServiceTest.ProductService_FindById_ThrowsExceptionWhenNotFound.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CartApplication (1).executor": "Run",
+    "Spring Boot.CartApplication.executor": "Debug",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CustomerApplication.executor": "Run",
+    "Spring Boot.DiscoveryApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.NotificationApplication.executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.PaymentApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
+    "StatusDashboardGroupingRule": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "develop",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dungpham/Code/e-commerce-app/services/order/src/main/java/com/example/ecommerce/orderline",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -146,6 +153,7 @@
       <recent name="$PROJECT_DIR$/services/product/src/main/java/com/example/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/product-service" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -165,7 +173,37 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.keycloak: Compose Deployment">
+  <component name="RunManager" selected="JUnit.CartControllerTest">
+    <configuration name="CartApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.CartApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ecommerce.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.controller.CartControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart-service" />
       <extension name="coverage">
@@ -181,47 +219,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.cart.*" />
+          <option name="PATTERN" value="com.example.ecommerce.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.cart.CartRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.service.CartServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartRepositoryTest.CartRepository_Save_ReturnSavedCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cart-service" />
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.cart.*" />
+          <option name="PATTERN" value="com.example.ecommerce.customer.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.cart.CartRepositoryTest" />
-      <option name="METHOD_NAME" value="CartRepository_Save_ReturnSavedCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ecommerce.product.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ecommerce.Product.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.product.repository.ProductRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.ecommerce.customer.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecommerce.customer.repository.CustomerRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,26 +332,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.keycloak: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="keycloak" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+        <item itemvalue="JUnit.CartControllerTest" />
+        <item itemvalue="JUnit.CartServiceTest" />
         <item itemvalue="JUnit.CartRepositoryTest (1)" />
-        <item itemvalue="JUnit.CartRepositoryTest" />
-        <item itemvalue="JUnit.CartRepositoryTest.CartRepository_Save_ReturnSavedCart" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.CustomerRepositoryTest" />
+        <item itemvalue="JUnit.CartApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -391,6 +400,14 @@
       <workItem from="1721299860333" duration="641000" />
       <workItem from="1721618045458" duration="969000" />
       <workItem from="1721619356906" duration="11287000" />
+      <workItem from="1721700403173" duration="7449000" />
+      <workItem from="1721789383490" duration="25596000" />
+      <workItem from="1721874108134" duration="14401000" />
+      <workItem from="1721962750764" duration="121000" />
+      <workItem from="1721962976659" duration="800000" />
+      <workItem from="1721964013707" duration="16000" />
+      <workItem from="1721978127580" duration="5788000" />
+      <workItem from="1722226867264" duration="9820000" />
     </task>
     <task id="LOCAL-00001" summary="update docker config">
       <option name="closed" value="true" />
@@ -453,7 +470,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -500,6 +517,11 @@
           <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/com/example/ecommerce/email/service/EmailService.java</url>
           <line>38</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/cart-service/src/main/java/com/example/ecommerce/cart/service/CartServiceImpl.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />

@@ -1,0 +1,53 @@
+name: Notification Service CI Pipeline
+
+on:
+  push:
+    paths:
+      - 'services/notification-service/**'
+    branches:
+      - develop
+  workflow_dispatch:
+
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Cache Maven packages
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build with Maven
+        run: mvn clean install -DskipTests
+        working-directory: ./services/notification-service
+
+      - name: Test with Maven
+        run: mvn test
+        working-directory: ./services/notification-service
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./services/notification-service
+          push: true
+          tags: dungpham2502/notification-service:latest

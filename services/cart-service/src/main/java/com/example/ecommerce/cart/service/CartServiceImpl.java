@@ -5,6 +5,7 @@ import com.example.ecommerce.cart.dto.CartResponse;
 import com.example.ecommerce.cart.mapper.CartMapper;
 import com.example.ecommerce.cart.repository.CartRepository;
 import com.example.ecommerce.customer.client.CustomerClient;
+import com.example.ecommerce.customer.dto.CustomerResponse;
 import com.example.ecommerce.exception.BusinessException;
 import com.example.ecommerce.item.dto.CartItemRequest;
 import com.example.ecommerce.item.entity.CartItem;
@@ -41,7 +42,7 @@ public class CartServiceImpl implements CartService {
 
         var existingCart = cartRepository.findByCustomerId(request.customerId());
         if(existingCart.isPresent()) {
-            throw new BusinessException("Cannot add to cart:: Customer already exists");
+            throw new BusinessException("Cannot create cart:: Cart already exists");
         }
         // check item quantity
         var productIds = request.items().stream()
@@ -129,5 +130,16 @@ public class CartServiceImpl implements CartService {
                 .orElseThrow(() -> new BusinessException("No cart found for customer ID:: " + customerId));
         cart.getItems().clear();
         cartRepository.save(cart);
+    }
+
+    @Override
+    public Optional<CustomerResponse> getCustomer(Integer customerId){
+        return Optional.ofNullable(customerClient.findCustomerById(customerId)
+                .orElseThrow(() -> new BusinessException("Cannot find customer:: No customer exists")));
+    }
+
+    @Override
+    public List<ProductResponse> checkProductAvailability(List<Integer> productIds, List<Double> quantities) {
+        return productClient.checkAvailability(productIds, quantities);
     }
 }
